@@ -24,7 +24,7 @@ app.use(session({
   }));
   
 app.use(cors({
-    origin: ['http://127.0.0.1:5500', 'http://127.0.0.1:5501'],
+    origin: ['http://127.0.0.1:5500', 'http://127.0.0.1:5501', 'https://sample-vercel-frontend.vercel.app'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],       
     credentials: true  
   }));
